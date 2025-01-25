@@ -44,6 +44,6 @@ npm start
 
 ## Additional Resources
 
-* A Walkthrough Video that demonstrates the functionality of the application:
+* A Walkthrough Video that demonstrates the functionality of the application: [Walkthrough Video Link](https://drive.google.com/file/d/185KflyH4_AtkLzHkCb8is0EHRyVHYyNl/view?usp=sharing)
 
 * The URL of the GitHub repository: [GitHub Repository](https://github.com/gilmerperez/vehicle-builder)
