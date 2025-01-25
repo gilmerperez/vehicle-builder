@@ -4,46 +4,41 @@
 
 This project is made to display a TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks. The application prompts the user to create a new vehicle or select an existing vehicle. After going through the creation process or the selection process, the user is able to perform certain actions with the selected vehicle. The user is returned to the actions menu after each action until they decide to exit the application.
 
-### User Story
+## Usage
 
-```md
-AS a developer
-I WANT to update an existing application to include additional vehicle types
-SO THAT I am able to comprehend and work with existing code bases.
+```bash
+npm start
 ```
+## Instructions
 
-## Acceptance Criteria
+* The application prompts the user to create a new vehicle or select an existing vehicle.
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted to create a new vehicle or existing vehicle
-THEN I can choose between the two options
-WHEN I am prompted to choose the vehicle type during creation
-THEN I can choose between car, truck, and motorbike
-WHEN I am prompted for details about the vehicle
-THEN I can enter the vehicle information
-WHEN I have entered all the vehicle information
-THEN I can use the created vehicle
-WHEN I select an existing vehicle
-THEN I can use the selected existing vehicle
-WHEN I have created a new vehicle or selected an existing vehicle
-THEN I can perform actions with that vehicle
-WHEN I perform an action with a vehicle
-THEN I see the result of the action in the command-line
-WHEN I complete the process of performing an action
-THEN I can perform additional actions until I choose to exit
-```
+* After the vehicle is created or selected, the user can perform actions with it, such as driving or using other vehicle features.
+
+* The user can continue performing actions with the vehicle until they choose to exit.
+
+## Key Features
+
+* Vehicle Creation: Prompts the user to create a new vehicle by providing necessary details like vehicle type (car, truck, motorbike), make, model, etc.
+
+* Vehicle Selection: Allows the user to select from existing vehicles that have already been created.
+
+* Vehicle Actions: After selecting a vehicle, the user can perform various actions (e.g., drive, park, etc.) and see the result in the command line interface.
+
+* Dynamic Actions Menu: After completing an action, the user is returned to the main actions menu, where they can continue interacting with the vehicle until they choose to exit.
+
+## Technology Stack
+
+This application needs the following tools and technologies to operate:
+
+* Inquirer: Collects user input for creating or selecting vehicles and performing actions.
+
+* Node.js: Executes the command-line interface for vehicle creation and management.
 
 ## Additional Requirements
 
 The application will use [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
 
-```bash
-npm start
-```
-
 ## Additional Resources
 
 * A Walkthrough Video that demonstrates the functionality of the application: [Walkthrough Video Link](https://drive.google.com/file/d/185KflyH4_AtkLzHkCb8is0EHRyVHYyNl/view?usp=sharing)
-
-* The URL of the GitHub repository: [GitHub Repository](https://github.com/gilmerperez/vehicle-builder)
