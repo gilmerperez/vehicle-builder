@@ -6,16 +6,18 @@ This project is made to display a TypeScript command-line application that build
 
 ## Usage
 
+The application will use [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
+
 ```bash
 npm start
 ```
 ## Instructions
 
-* The application prompts the user to create a new vehicle or select an existing vehicle.
+1. The application prompts the user to create a new vehicle or select an existing vehicle.
 
-* After the vehicle is created or selected, the user can perform actions with it, such as driving or using other vehicle features.
+2. After the vehicle is created or selected, the user can perform actions with it, such as driving or using other vehicle features.
 
-* The user can continue performing actions with the vehicle until they choose to exit.
+3. The user can continue performing actions with the vehicle until they choose to exit.
 
 ## Key Features
 
@@ -31,16 +33,13 @@ npm start
 
 This application needs the following tools and technologies to operate:
 
-* Inquirer: Collects user input for creating or selecting vehicles and performing actions.
+* **Inquirer:** Collects user input for creating or selecting vehicles and performing actions.
 
-* Node.js: Executes the command-line interface for vehicle creation and management.
-
-## Additional Requirements
-
-The application will use [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
+* **Node.js:** Executes the command-line interface for vehicle creation and management.
 
 ## Additional Resources
 
-* A Walkthrough Video that demonstrates the functionality of the application: [Walkthrough Video Link](https://drive.google.com/file/d/185KflyH4_AtkLzHkCb8is0EHRyVHYyNl/view?usp=sharing)
-
 * The URL of the GitHub repository: [GitHub Repository](https://github.com/gilmerperez/vehicle-builder)
+
+
+* A Walkthrough Video that demonstrates the functionality of the application: [Walkthrough Video Link](https://drive.google.com/file/d/185KflyH4_AtkLzHkCb8is0EHRyVHYyNl/view?usp=sharing)
