@@ -11,6 +11,7 @@ The application will use [Inquirer](https://www.npmjs.com/package/inquirer) for 
 ```bash
 npm start
 ```
+
 ## Instructions
 
 1. The application prompts the user to create a new vehicle or select an existing vehicle.
